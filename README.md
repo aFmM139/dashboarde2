@@ -1,12 +1,18 @@
 > Edited for use in IDX on 07/09/12
+# Tercer insumo E2
 
 # Welcome to your Expo app 👋
+Este es el primer insumo del curso E2, donde se les pide diseñar una interfaz de usuario más concreta para un perfil de una red social.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Tecnologías a utilizar:**
 
 ## Get started
+*   **NativeWind:** Para estilizar la interfaz de usuario.
+*   **Expo:** Para la configuración y desarrollo del proyecto.
 
 #### Android
+**Consideraciones:**
 
 Android previews are defined as a `workspace.onStart` hook and started as a vscode task when the workspace is opened/started.
 
@@ -51,3 +57,6 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+*   No es necesario implementar navegación entre pantallas.
+*   El enfoque principal es el diseño y la implementación de la interfaz de usuario para la pantalla de perfil.
+* Este comando correra el proyecto en cuestion ´npm run web -- --tunnel´
