@@ -1,8 +1,5 @@
 import { Text, View } from "react-native";
 import ProfileDetails from "@/components/profile-details";
-
-
-
 import "../global.css";
 export default function Index() {
   return (
