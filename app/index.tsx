@@ -1,6 +1,7 @@
-import { Text, View } from "react-native";
+import { requireNativeComponent, Text, View } from "react-native";
 import ProfileDetails from "@/components/profile-details";
 import "../global.css";
+
 export default function Index() {
   return (
     <View className="flex justify-center items-center bg-stone-800 w-screen h-screen">
