@@ -8,7 +8,7 @@
         return (
           <View className="flex justify-center items-center bg-white w-screen h-1/2">
       
-           <Image  source={require("../assets/images/icon.png")} 
+           <Image  source={require("../assets/images/Foto.png")} 
            className="max-h-24 max-w-24 rounded-full" />
            <CustomText value="Andrés Fajardo" variant="title"></CustomText>
            <CustomText value="✨ Estudiante ✨" variant="subtitle"></CustomText>
