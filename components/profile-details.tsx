@@ -2,6 +2,7 @@
       import React from 'react'
       import "../global.css";
       import IconButton from './IconButton';
+import CustomText from './CustomText';
       
       const profiledetails = () => {
         return (
@@ -9,8 +10,8 @@
       
            <Image  source={require("../assets/images/icon.png")} 
            className="max-h-24 max-w-24 rounded-full" />
-           <Text className="text-2xl font-bold">Andrés Fajardo</Text>
-           <Text className="font-bold text-gray-400">✨ Estudiante ✨</Text>
+           <CustomText value="Andrés Fajardo" variant="title"></CustomText>
+           <CustomText value="✨ Estudiante ✨" variant="subtitle"></CustomText>
       
            <View className="flex flex-row gap-4 mt-4">
             <IconButton icon='instagram' pulsar={()=>console.log("instagram")} color= "pink"></IconButton>

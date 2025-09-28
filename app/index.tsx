@@ -4,7 +4,7 @@ import "../global.css";
 
 export default function Index() {
   return (
-    <View className="flex justify-center items-center bg-stone-800 w-screen h-screen">
+    <View className="flex justify-center items-center bg-stone-800 w-screen h-1/2">
       <Text className="text-white bold text-xl"></Text>
     <View className="flex justify-center items-center bg-white w-screen h-screen">
       <ProfileDetails></ProfileDetails>
