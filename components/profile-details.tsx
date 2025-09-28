@@ -1,8 +1,8 @@
-      import { View, Text , Image, useColorScheme } from 'react-native'
-      import React from 'react'
-      import "../global.css";
-      import IconButton from './IconButton';
-import CustomText from './CustomText';
+    import { View, Text , Image, useColorScheme } from 'react-native'
+    import React from 'react'
+    import "../global.css";
+    import IconButton from './IconButton';
+    import CustomText from './CustomText';
       
       const profiledetails = () => {
         return (
@@ -14,7 +14,7 @@ import CustomText from './CustomText';
            <CustomText value="✨ Estudiante ✨" variant="subtitle"></CustomText>
       
            <View className="flex flex-row gap-4 mt-4">
-            <IconButton icon='instagram' pulsar={()=>console.log("instagram")} color= "pink"></IconButton>
+            <IconButton icon='instagram' enlace='https://www.instagram.com/andres_fa/' pulsar={()=>console.log("instagram")} color= "pink"></IconButton>
             <IconButton icon='whats-app' pulsar={()=>console.log("whatsapp")} color= "green"></IconButton>
             <IconButton icon='twitter' pulsar={()=>console.log("twitter")} color= "blue"></IconButton>
             <IconButton icon='tik-tok' pulsar={()=>console.log("tiktok")} ></IconButton>
