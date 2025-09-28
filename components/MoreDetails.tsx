@@ -5,7 +5,7 @@ import IconButton from './IconButton'
 
 const MoreDetails = () => {
   return (
-    <View className='h-700 w-screen bg-zinc-900 rounded-t-3xl p-6 flex flex-col justify-start gap-4'>
+    <View className='h-1/2 w-screen bg-zinc-900 rounded-t-3xl p-6 flex flex-col justify-start gap-4'>
       <CustomText value="Skill" variant="subtitle"></CustomText>
       <View className="flex-row justify-center items-center gap-4">
             <IconButton icon='android' pulsar={()=>console.log("android")} color= "darkgreen"></IconButton>
