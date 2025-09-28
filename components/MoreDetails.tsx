@@ -14,7 +14,7 @@ const MoreDetails = () => {
             <IconButton icon='experiment' pulsar={()=>console.log("prograMovil")} color="#EDB4B4"></IconButton>
       </View>
       <CustomText value="Experiencia" variant="subtitle"></CustomText>
-      <CustomText value="Seniors" variant="normal"></CustomText>
+      <CustomText value="Seniors" variant="experienceText"></CustomText>
     </View>
   )
 }
